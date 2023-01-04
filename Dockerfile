@@ -8,4 +8,4 @@ RUN npm install && \
     npm run test     
 EXPOSE 3000
 
-CMD ["npm","start", "-h", "0.0.0.0"]    
+CMD ["npm","start", "--host", "0.0.0.0"]    
